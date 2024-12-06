@@ -14,9 +14,10 @@ This notebook was created and worked on in Google Colab.
 To run the notebook, you can load it into Jupyter or Google Colab. Our code is not set up to take advantage of an NVIDIA GPU as we did not have the resources at this time. We have tested this notebook on the following:
 - Google Colab (as of December 2024)
     - Python 3
-    - CPU Compute Backend
+    - CPU Compute Backend, 12GB RAM
+        - You may run out of memory depending on your sample size, purchase a backend with more memory or run locally.
 - Linux
-    - Python 3.10 venv
+    - Python 3.10 venv, 64GB RAM
         - Newer versions of Python **will not** work, you may need to download/install a second Python version.
 
 ## Experimentation
@@ -24,6 +25,7 @@ To run the notebook, you can load it into Jupyter or Google Colab. Our code is n
 Unmodified, the notebook will set everything up and start experimenting with the parameters below. You can adjust them as you would like, given you have the time and resources. They are located in the second code cell.
 ```python
 # The amount of samples to pull from the IMDB dataset.
+# You may want to decrease this if running on Google Colab.
 # Recommended values: 50-200
 dataset_samples = 100
 
