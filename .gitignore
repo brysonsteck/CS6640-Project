@@ -1,3 +1,10 @@
+# Notebook artifacts
+bert-finetuned
+data
+motion_capture_data
+results
+motion+capture+hand+postures.zip
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
